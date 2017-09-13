@@ -2,6 +2,10 @@
   text-align:center;
 }
 
+poem {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
 body {
   font-size:80%;
   font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
@@ -53,6 +57,4 @@ h1 {
   font-family: 'Merriweather', serif;
 }
 
-poem {
-  font-family: 'Gloria Hallelujah', cursive;
-}
+
