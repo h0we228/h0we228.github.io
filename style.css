@@ -2,13 +2,13 @@
   text-align:center;
 }
 
-div.poem {
-  font-family: 'Gloria Hallelujah', cursive;
-}
-
 body {
   font-size:80%;
   font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
+
+div.poem {
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 ul#tabs {
