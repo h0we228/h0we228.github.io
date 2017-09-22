@@ -1,7 +1,10 @@
-
 body {
   font-size:80%;
   font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
+
+.phosphate {
+  font-family:"phosphate"
 }
 
 ul#tabs {
@@ -43,11 +46,3 @@ div.tabContent {
 div.tabContent.hide {
   display:none;
 }
-
-
-h1 {
-  font-size: 120px;
-  font-family: 'Merriweather', serif;
-}
-
-
