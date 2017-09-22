@@ -1,11 +1,14 @@
+.phosphate {
+  font-family:"Phosphate"
+}
+
+
 body {
   font-size:80%;
   font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
 }
 
-.phosphate {
-  font-family:"Phosphate"
-}
+
 
 ul#tabs {
   list-style-type:none;
