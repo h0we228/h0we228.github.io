@@ -1,5 +1,30 @@
+
 .phosphate {
-  font-family:"Phosphate"
+  font-family:"phosphate", serif;
+}
+
+.STZhongsong {
+  font-family:"STZhongsong", sans-serif;
+}
+
+.markerfelt {
+  font-family:"markerfelt";
+}
+
+.chalkduster {
+  font-family:"chalkduster";
+}
+
+.redletters {
+  color:red;
+}
+
+.courier {
+  font-family:"Courier New";
+}
+
+h1 {
+  font-size:77px;
 }
 
 
