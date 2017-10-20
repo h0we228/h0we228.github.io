@@ -39,10 +39,52 @@ h1 {
   background-color: white;
 }
 
-.whitebackground {
+h2 {
   display: inline;
   background-color: white;
 }
+
+h3 {
+  display: inline;
+  background-color: white;
+}
+
+h4 {
+  display: inline;
+  background-color: white;
+}
+
+h5 {
+  display: inline;
+  background-color: white;
+}
+
+h6 {
+  display: inline;
+  background-color: white;
+}
+
+p {
+  display: inline;
+  background-color: white;
+}
+
+li {
+  display: inline;
+  background-color: white;
+}
+
+ul {
+  display: inline;
+  background-color: white;
+}
+
+ol {
+  display: inline;
+  background-color: white;
+}
+
+
 
 
 body {
