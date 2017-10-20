@@ -35,52 +35,52 @@
 
 h1 {
   font-size:77px;
-  display: inline;
+  display: block;
   background-color: white;
 }
 
 h2 {
-  display: inline;
+  display: block;
   background-color: white;
 }
 
 h3 {
-  display: inline;
+  display: block;
   background-color: white;
 }
 
 h4 {
-  display: inline;
+  display: block;
   background-color: white;
 }
 
 h5 {
-  display: inline;
+  display: block;
   background-color: white;
 }
 
 h6 {
-  display: inline;
+  display: block;
   background-color: white;
 }
 
 p {
-  display: inline;
+  display: block;
   background-color: white;
 }
 
 li {
-  display: inline;
+  display: block;
   background-color: white;
 }
 
 ul {
-  display: inline;
+  display: block;
   background-color: white;
 }
 
 ol {
-  display: inline;
+  display: block;
   background-color: white;
 }
 
