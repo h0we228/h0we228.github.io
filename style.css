@@ -35,13 +35,20 @@
 
 h1 {
   font-size:77px;
+  display: inline;
+  background-color: white;
+}
+
+.whitebackground {
+  display: inline;
+  background-color: white;
 }
 
 
 body {
   font-size:80%;
   font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
-  background: url("https://i.ytimg.com/vi/SiSXDEIu3GI/maxresdefault.jpg");
+  background: url("https://cdn.spacetelescope.org/archives/images/wallpaper1/heic0611b.jpg");
   background-repeat: repeat;
 }
 
