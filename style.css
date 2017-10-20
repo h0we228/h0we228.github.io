@@ -1,4 +1,10 @@
 
+
+.cursive {
+  font-family: 'Cedarville Cursive', cursive;
+  text-align: center;
+}
+
 .phosphate {
   font-family:"phosphate";
 }
@@ -35,6 +41,8 @@ h1 {
 body {
   font-size:80%;
   font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+  background: https://i.ytimg.com/vi/SiSXDEIu3GI/maxresdefault.jpg;
+  background-repeat: repeat;
 }
 
 
