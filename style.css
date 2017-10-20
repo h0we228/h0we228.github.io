@@ -41,7 +41,7 @@ h1 {
 body {
   font-size:80%;
   font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
-  background: https://i.ytimg.com/vi/SiSXDEIu3GI/maxresdefault.jpg;
+  background: url("https://i.ytimg.com/vi/SiSXDEIu3GI/maxresdefault.jpg");
   background-repeat: repeat;
 }
 
