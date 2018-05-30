@@ -1,35 +1,169 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="/style.css" type="text.css" rel="stylesheet">
-  <script type="text/javascript" src="script.js">
-  </script>
-  <style>
+<style>
+  /* Style the buttons that are used to open and close the accordion panel */
   .accordion {
       background-color: #eee;
       color: #444;
       cursor: pointer;
       padding: 18px;
       width: 100%;
-      border: none;
       text-align: left;
+      border: none;
       outline: none;
-      font-size: 15px;
       transition: 0.4s;
   }
 
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
       background-color: #ccc;
   }
 
+  /* Style the accordion panel. Note: hidden by default */
   .panel {
       padding: 0 18px;
       background-color: white;
-      max-height: 0;
+      display: none;
       overflow: hidden;
-      transition: max-height 0.2s ease-out;
   }
-  </style>
+
+  .phosphate {
+    font-family:"phosphate";
+  }
+
+  .STZhongsong {
+    font-family:"STZhongsong";
+  }
+
+  .angsananew {
+    font-family:"Angsana New";
+  }
+
+  .markerfelt {
+    font-family:"markerfelt";
+  }
+
+  .chalkduster {
+    font-family:"chalkduster";
+  }
+
+  .redletters {
+    color:red;
+  }
+
+  .courier {
+    font-family:"Courier New";
+  }
+
+
+  h1 {
+    font-size:77px;
+    display: block;
+    background-color: white;
+  }
+
+  h2 {
+    display: block;
+    background-color: white;
+  }
+
+  h3 {
+    display: block;
+    background-color: white;
+  }
+
+  h4 {
+    display: block;
+    background-color: white;
+  }
+
+  h5 {
+    display: block;
+    background-color: white;
+  }
+
+  h6 {
+    display: block;
+    background-color: white;
+  }
+
+  p {
+    display: block;
+    background-color: white;
+  }
+
+  li {
+    display: block;
+    background-color: white;
+  }
+
+  ul {
+    display: block;
+    background-color: white;
+  }
+
+  ol {
+    display: block;
+    background-color: white;
+  }
+
+  br {
+    display: block;
+    background-color: white;
+  }
+
+
+
+  body {
+    font-size:80%;
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    background: url("https://cdn.spacetelescope.org/archives/images/wallpaper1/heic0611b.jpg");
+    background-repeat: repeat;
+  }
+
+
+
+  ul#tabs {
+    list-style-type:none;
+    margin: 30px 0 0 0;
+    padding: 0 0 0.3em 0;
+  }
+
+  ul#tabs li {
+    display:inline;
+  }
+
+  ul#tabs li a {
+    color:#42454a;
+    background-color: #dedbde;
+    border: 1px solid #c9c3ba;
+    border-bottom: none;
+    padding: 0.3em;
+    text-decoration: none;
+  }
+
+  ul#tabs li a:hover {
+    background-color: #f1f0ee;
+  }
+
+  ul#tabs li a.selected {
+    color: #000;
+    background-color: #f1f0ee;
+    font-weight: bold;
+    padding: 0.7em 0.3em 0.38em 0.3em;
+  }
+
+  div.tabContent {
+    border: 1px solid #c9c3ba;
+    padding: 0.5em;
+    background-color: #f1f0ee;
+  }
+
+  div.tabContent.hide {
+    display:none;
+  }
+</style>
   <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
   <style>
   .cursive {
@@ -358,17 +492,17 @@
 
   <button class="accordion">Section 1</button>
   <div class="panel">
-    <p>Lorem ipsum...</p>
+    <p>Lorem ipsum...asdfajsdflaksdf'; ak adsf; j;ldsfj al;sdkfja sd;llsfdk asf a;lsdf a'sd;lfk a's;dlk a'sd;lfk as;dl'f kakdl;f lasdkjfl;a dsjfl a;dsjladslkdjflsdjfa jweflawenfaewf awlfk asdlfk; madsl;kf </p>
   </div>
 
   <button class="accordion">Section 2</button>
   <div class="panel">
-    <p>Lorem ipsum...</p>
+    <p>Lorem ipsum...asd;flkasd lf l;kj a;ldsfj lkja lsdkfj alkdjfalksjdlfkjeofnwelkrgnal;k jlak ;ljf k;w ajefal;kwejf l;asjf lak fjakl;fj ;alkwef ;lke fjal;ekfjaelw;fk al;kfj awl; fjjal;kf jakl;fjalkf jawl;kf </p>
   </div>
 
   <button class="accordion">Section 3</button>
   <div class="panel">
-    <p>Lorem ipsum...</p>
+    <p>Lorem ipsum...asdl;fkj  klld;la;wlkefjkl  awelfajelkfjl;jl;j  a</p>
   </div>
 
 
