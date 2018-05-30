@@ -2,21 +2,7 @@
 <html>
 <head>
   <link href="/style.css" type="text.css" rel="stylesheet">
-  <script type="text/javascript" src="script.js">
-  var coll = document.getElementsByClassName("collapsible");
-  var i;
-
-  for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.display === "block") {
-        content.style.display = "none";
-      } else {
-        content.style.display = "block";
-      }
-    });
-  }</script>
+  <script type="text/javascript" src="script.js"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
   <style>
@@ -24,32 +10,6 @@
     font-family: "Cedarville Cursive", cursive;
     text-align: center;"
   }
-  /* Style the button that is used to open and close the collapsible content */
-  .collapsible {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-  }
-
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .collapsible:hover {
-    background-color: #ccc;
-  }
-
-  /* Style the collapsible content. Note: hidden by default */
-  .content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
-  }
-
   </style>
 
 
@@ -371,13 +331,20 @@
 
 
 
-<button class="collapsible">What I'm trying to say my dear friends is...</button>
-<div class="content">
 
-<p>content check 123</p>
-</div>
+<main id="accordion">
+  <section id="item1">
+    <a href=#item1>Test run</a>
+    <p>This is the test run hopefully this works</p>
+    <section id="item2">
+      <a href=#item2>Test run2</a>
+      <p>This is the test run hopefully this works</p>
+      <section id="item3">
+        <a href=#item3>Test run3</a>
+        <p>This is the test run hopefully this works</p>
+  </section>
 
-
+</main>
 
   <h1><a href="https://www.youtube.com/watch?v=v9EUmHHhe5Q" target="_blank">HEY!</a> HEY!!!!!! TRYYYYYYYY TO LISTENNNNNNNNN!!!!!</h1>
   <h1>I KNOW IT'S HARD TO HEAR ME THROUGH ALL THE WATER</h1>
