@@ -69,7 +69,7 @@ function getHash( url ) {
   return url.substring( hashPos + 1);
 }
 
-
+window.onload=function(){
 var accordions=document.querySelectorAll("button.accordion"){
   for(var i=0; i<accordions.length;i++){
     accordions[i].onclick=function(){
@@ -77,4 +77,5 @@ var accordions=document.querySelectorAll("button.accordion"){
       this.nextElementSibling.classList.toggle("show");
     }
   }
+}
 }
