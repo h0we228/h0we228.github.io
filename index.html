@@ -3,7 +3,7 @@
 <head>
   <link href="/style.css" type="text.css" rel="stylesheet">
   <script type="text/javascript" src="script.js"></script>
-  <script type="text/javascript" src="collapsable.js"></script>
+
   <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
   <style>
   .cursive {
@@ -11,6 +11,22 @@
     text-align: center;"
   }
   </style>
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script>
 
 
 </head>
@@ -334,7 +350,8 @@
 <button class="collapsible">What I'm trying to say my dear friends is...</button>
 <div class="content">
 
-
+<p>content check 123</p>
+</div>
 
 
 
