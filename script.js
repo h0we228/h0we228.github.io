@@ -1,6 +1,6 @@
 var tabLinks= new Array();
 var contentDivs = new Array();
-var accordions=document.querySelectorAll("button.accordion");
+
 
 
 
@@ -67,15 +67,4 @@ function getFirstChildWithTagName( element, tagName ) {
 function getHash( url ) {
   var hashPos = url.lastIndexOf ( '#' );
   return url.substring( hashPos + 1);
-}
-
-window.onload=function(){
-var accordions=document.querySelectorAll("button.accordion"){
-  for(var i=0; i<accordions.length;i++){
-    accordions[i].onclick=function(){
-      this.classList.toggle("active");
-      this.nextElementSibling.classList.toggle("show");
-    }
-  }
-}
 }
