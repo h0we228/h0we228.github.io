@@ -1,6 +1,14 @@
 var tabLinks= new Array();
 var contentDivs = new Array();
-
+var accordions=document.querySelectorAll("button.accordion");
+{
+  for(var i=0; i<accordions.length;i++){
+    accordions[i].onclick=function(){
+      this.classList.toggle("active");
+      this.nextElementSibling.classList.toggle("show");
+    }
+  }
+}
 
 
 
@@ -18,6 +26,10 @@ function init() {
       contentDivs[id] = document.getElementById( id );
     }
   }
+}
+
+
+
 
 
   // Assign onclick events to the tab links, and highlight the first tab
