@@ -1,10 +1,9 @@
 
-#accordion section p {
-  display:none;
-}
-
 #accordion section a {
   text-align:center;
+}
+#accordion section p {
+  display:none;
 }
 
 #accordion section a:hover {
