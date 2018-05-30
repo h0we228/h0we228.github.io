@@ -1,7 +1,24 @@
 var tabLinks= new Array();
 var contentDivs = new Array();
+var coll = document.getElementsByClassName("collapsible");
 
 <body onload="init()">
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
 
 function init() {
   // Grab the tab links and content divs from the page
@@ -15,20 +32,7 @@ function init() {
     }
   }
 
-  var coll = document.getElementsByClassName("collapsible");
-  var i;
 
-  for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.display === "block") {
-        content.style.display = "none";
-      } else {
-        content.style.display = "block";
-      }
-    });
-  }
   // Assign onclick events to the tab links, and highlight the first tab
   var i = 0;
 
