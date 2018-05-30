@@ -5584,24 +5584,26 @@
   <p>Hold fast to the Word of God even unto death, and I'll see you in the sky when you get there."</p>
   <p>IT! IS! <a href="https://www.youtube.com/watch?v=aNzAntcoZJQ#t=0m47s" target="_blank">ACCOMPLISHED!</a> MY GOD. IT'S. IT'S BEAUTIFUL.</p>
 
-
-  <script>
+<script>
   var acc = document.getElementsByClassName("accordion");
   var i;
 
   for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var panel = this.nextElementSibling;
-      if (panel.style.maxHeight){
-        panel.style.maxHeight = null;
-      } else {
-        panel.style.maxHeight = panel.scrollHeight + "px";
-      }
-    });
-  }
-  </script>
+      acc[i].addEventListener("click", function() {
+          /* Toggle between adding and removing the "active" class,
+          to highlight the button that controls the panel */
+          this.classList.toggle("active");
 
+          /* Toggle between hiding and showing the active panel */
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+              panel.style.display = "none";
+          } else {
+              panel.style.display = "block";
+          }
+      });
+  }
+</script>
 
 
 
