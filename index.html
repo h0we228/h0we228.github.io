@@ -118,32 +118,30 @@
   body {
     font-size:80%;
     font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
-    background: url("https://www.lds.org/bc/content/bible-videos/videos/jesus-is-scourged-and-crucified/jesus-christ-on-the-cross.jpg");
-    background-repeat: repeat;
-
+    
   }
 
   img.bg {
-    /* Set rules to fill background */
-    min-height: 100%;
-    min-width: 1024px;
+      /* Set rules to fill background */
+      min-height: 100%;
+      min-width: 1024px;
 
-    /* Set up proportionate scaling */
-    width: 100%;
-    height: auto;
+      /* Set up proportionate scaling */
+      width: 100%;
+      height: auto;
 
-    /* Set up positioning */
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-
-  @media screen and (max-width: 1024px) { /* Specific to this particular image */
-    img.bg {
-      left: 50%;
-      margin-left: -512px;   /* 50% */
+      /* Set up positioning */
+      position: fixed;
+      top: 0;
+      left: 0;
     }
-  }
+
+    @media screen and (max-width: 1024px) { /* Specific to this particular image */
+      img.bg {
+        left: 50%;
+        margin-left: -512px;   /* 50% */
+      }
+    }
 
   ul#tabs {
     list-style-type:none;
@@ -199,7 +197,7 @@
 
 
 <body>
-
+<img src="https://www.lds.org/bc/content/bible-videos/videos/jesus-is-scourged-and-crucified/jesus-christ-on-the-cross.jpg" id="bg" alt="">
 
 <button class="accordion">Let us hear the conclusion of the whole matter: Fear God, and keep his commandments: for this is the whole duty of man. For God shall bring every work into judgment, with every secret thing, whether it be good, or whether it be evil.</button>
 <div class="panel">
